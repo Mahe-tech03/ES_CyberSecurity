@@ -1,0 +1,19 @@
+/* CSS replaced by MUI CssBaseline */
+
+/* CSS replaced by MUI CssBaseline */
+
+html,
+body,
+#root {
+    overflow-x: hidden;
+    width: 100%;
+    max-width: 100%;
+    position: relative;
+    background-color: transparent !important;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}

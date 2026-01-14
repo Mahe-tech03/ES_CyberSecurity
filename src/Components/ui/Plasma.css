@@ -1,0 +1,23 @@
+.plasma-container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  background-color: #000;
+}
+
+.plasma-container.plasma-fullscreen {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: -1;
+  pointer-events: none;
+}
+
+.plasma-container canvas {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
