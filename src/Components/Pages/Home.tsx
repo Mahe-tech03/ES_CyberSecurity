@@ -19,8 +19,6 @@ export default function Home() {
         <CallToAction />
       </GSAPReveal>
       
-      {/* <Solutions /> */}
-      {/* <FAQs /> */}
     </>
   );
 }
